@@ -21,7 +21,16 @@ public class Table_of_9 {
         System.out.println();
         System.out.printf("9*9=81");
         System.out.println();
-        System.out.printf("9*10=90");
+        System.out.println("9*10=90");
 
-    }
+        int number = 10;
+        String result = (number % 2 == 0) ? "Even" : "Odd";
+        /*String result = null;
+        if (number % 2 ==0) {
+            result = "even";
+        } else {
+            result = "odd";
+        }*/
+        System.out.println("The number " + number + " is " + result);
+       }
 }
