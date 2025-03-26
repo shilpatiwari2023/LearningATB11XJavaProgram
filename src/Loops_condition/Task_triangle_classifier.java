@@ -12,8 +12,15 @@ public class Task_triangle_classifier {
         System.out.println("Enter third side : ");
         int third_side = scanner.nextInt();
 
-        if(first_side == second_side) && (first_side == third_side){
+        if((first_side == second_side) && (first_side == third_side)){
+            System.out.println("This is Equilateral triangle");
 
+                    }
+        if((first_side!= second_side) && (first_side != third_side )){
+            System.out.println("This is scalene triangle");
+        }
+        if((first_side==second_side) && (first_side!= third_side)){
+            System.out.println("This is Isosceles triangle");
         }
 
 
