@@ -5,7 +5,9 @@ public class Count_Vowel_consonants {
         String input = "Java program for checking the vowels and consonants in the given sentence";
          int vowel = 0;
          int consonants = 0;
-         for(int i = 0;i<= input.length(); i++){
+         input = input.toLowerCase();
+        System.out.println(input);
+         for(int i = 0;i< input.length(); i++){
              char ch = input.charAt(i);
              if(ch == 'a' || ch =='e' || ch == 'i' || ch == 'o' ||ch == 'u'){
                  vowel = vowel + 1 ;
@@ -13,8 +15,8 @@ public class Count_Vowel_consonants {
                  consonants = consonants + 1 ;
              }
               }
-        System.out.println("No of vowels :-   " + vowel);
-        System.out.println("No of consonants :-    " + consonants);
+        System.out.println("No of vowels :- " + vowel);
+        System.out.println("No of consonants :- " + consonants);
 
     }
 }
