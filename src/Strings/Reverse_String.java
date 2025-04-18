@@ -4,10 +4,11 @@ import java.util.Scanner;
 
 public class Reverse_String {
     public static void main(String[] args) {
-        Scanner s = new Scanner(System.in);
-        s.nextInt();
-        String str = "Alok Tiwari";
-        char ch[] = str.toCharArray();
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Please enter string to reverse - ");
+        String UserInput = scanner.next();
+       // String str = "Alok Tiwari";
+        char ch[] = UserInput.toCharArray();
         int size = ch.length;
         System.out.println(size);
         System.out.println(ch);
