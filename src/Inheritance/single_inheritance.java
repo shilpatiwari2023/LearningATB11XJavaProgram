@@ -12,7 +12,7 @@ public class single_inheritance {
         s1.bhk2();
     }
 
-static class Father{
+ static class Father{
     int gold_f = 1000;
 
     void bhk2(){
