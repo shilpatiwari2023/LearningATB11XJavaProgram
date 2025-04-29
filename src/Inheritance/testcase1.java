@@ -1,19 +1,14 @@
 package Inheritance;
 
-public class testcase1 {
-    public static void main(String[] args) {
-        String str = "Alok Tiwari";
-        char ch[] = str.toCharArray();
-        int size = ch.length;
-        System.out.println(size);
-        System.out.println(ch);
-        for(int i=size-1;i>=0;i--){
-            System.out.print(ch[i]);
+public class testcase1 extends common_to_all {
 
 
-//void runningTestcase1(){
+         void runningTC1(){
+            startBrowser();
+             System.out.println("Running TC1");
+            closeBrowser();
           }
-//}
 
-    }
+
 }
+
