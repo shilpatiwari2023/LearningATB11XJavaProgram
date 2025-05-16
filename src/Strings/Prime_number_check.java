@@ -9,6 +9,6 @@ public class Prime_number_check {
         System.out.println("Please enter the number to check = ");
         int number = scanner.nextInt();
 
-        if(number % number == 0 )
+       // if(number 0 )
     }
 }
